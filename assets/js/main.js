@@ -1,9 +1,14 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
-
-
+const navMenu = document.getElementById('nav-menu'),
+      navToogle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
-
+if(navToogle){
+    navToogle.addEventListener('click',() =>{
+        navMenu.classList.add('show-menu')
+    })
+}
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
