@@ -298,22 +298,22 @@
             
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
                             <i class="fa-solid fa-graduation-cap qualification__icon"></i>
                             Education
                         </div>
 
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex" data-target="#work">
                             <i class="fa-solid fa-briefcase qualification__icon"></i>
                             Work Experience
                         </div>
                     </div>
 
                     <div class="qualification__sections">
-                        <div class="qualification__content">
+                        <div class="qualification__content qualification__active" data-content id="education">
 
 
-                            <div class="qualification__data">
+                            <div class="qualification__data" data-content id="work">
                                 <div>
                                     <h3 class="qualification__title">Masters In Computer Application</h3>
                                     <span class="qualification__subtitle">Arka Jain University</span>
@@ -377,6 +377,26 @@
                                         <i class="fa-solid fa-calendar-days"></i>
                                         2014
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===================== Work Section ================== -->
+                        <div class="qualification__content" data-content id="work">
+
+
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Graduate Trainee</h3>
+                                    <span class="qualification__subtitle">Tata Consultancy Services</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        2021 - 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
                                 </div>
                             </div>
                         </div>
