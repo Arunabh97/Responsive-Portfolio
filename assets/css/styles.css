@@ -260,6 +260,7 @@ img {
   box-shadow: 0 -1px 4px rgba(0, 0, 0,.15);
 }
 
+
 /*==================== HOME ====================*/
 .home__container{
   gap: 1rem;
@@ -325,6 +326,99 @@ img {
 .home__scroll-arrow{
   font-size: 1.25rem;
 }
+/* Add keyframe animations for the home section */
+@keyframes scaleAndBounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animations to specific elements */
+.home__title,
+.home__subtitle {
+  animation: scaleAndBounce 1.5s both;
+}
+
+.home__title {
+  animation-delay: 0.3s; /* Adjust the delay for the title */
+}
+
+.home__subtitle {
+  animation-delay: 0.6s; /* Adjust the delay for the subtitle */
+}
+
+.home__name-container {
+  animation: fadeInUp 1.5s both;
+}
+
+/* Additional styles for better UI */
+.home__container {
+  gap: 2rem;
+}
+
+/* Adjust other styles as needed */
+/* Add keyframe animations for the home section */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Apply animations to specific elements */
+.home__social-icon {
+  animation: pulse 1.5s infinite alternate;
+}
+
+.home__scroll-button {
+  animation: bounce 2s infinite;
+}
+
+/* Additional styles for better UI */
+.home__container {
+  gap: 2rem;
+}
+
+.home__social-icon:hover {
+  transform: scale(1.1);
+  color: var(--first-color-alt);
+}
+
+/* Adjust other styles as needed */
+
 
 /*==================== BUTTONS ====================*/
 
@@ -382,6 +476,53 @@ img {
   display: flex;
   justify-content: center;
 }
+/* Add the following CSS to your existing styles */
+
+/* Keyframes for staggered zoom-in and opacity animation */
+@keyframes staggeredZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Apply staggered zoom-in and opacity animation to the entire about section */
+.about {
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: staggeredZoomIn 1s ease-in-out forwards;
+}
+
+/* Apply staggered zoom-in and opacity animation to the image with delay */
+.about__img {
+  animation: staggeredZoomIn 1s ease-in-out 0.5s forwards;
+}
+
+/* Apply staggered zoom-in and opacity animation to the description with delay */
+.about__description {
+  animation: staggeredZoomIn 1s ease-in-out 1s forwards;
+}
+
+/* Apply staggered zoom-in and opacity animation to the about info with delay */
+.about__info {
+  animation: staggeredZoomIn 1s ease-in-out 1.5s forwards;
+}
+
+/* Apply staggered zoom-in and opacity animation to the about buttons with delay */
+.about__buttons {
+  animation: staggeredZoomIn 1s ease-in-out 2s forwards;
+}
+
 
 /*==================== SKILLS ====================*/
 .skills__container{
@@ -531,6 +672,43 @@ img {
 .qualification__button.qualification__active{
   color: var(--first-color);
 }
+/* Add the following CSS to your existing styles */
+
+/* Keyframes for fade-in animation with delay for each qualification data item */
+@keyframes fadeInWithDelay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply animations to specific elements with delay */
+.qualification__data {
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeInWithDelay 0.8s ease-in-out forwards;
+}
+
+/* Set delay for each qualification data item */
+.qualification__data:nth-child(1) {
+  animation-delay: 0.2s; /* Adjust the delay for the first item */
+}
+
+.qualification__data:nth-child(2) {
+  animation-delay: 0.4s; /* Adjust the delay for the second item */
+}
+
+.qualification__data:nth-child(3) {
+  animation-delay: 0.6s; /* Adjust the delay for the third item */
+}
+
+.qualification__data:nth-child(4) {
+  animation-delay: 0.8s; /* Adjust the delay for the fourth item */
+}
+
+/* You can adjust the delay values as needed */
+
 
 /*==================== SERVICES ====================*/
 
