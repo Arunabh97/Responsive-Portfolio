@@ -527,8 +527,6 @@ img {
 /*==================== SKILLS ====================*/
 .skills__container{
   row-gap: 0;
-  width: 80%;
-  margin: 0 auto;
 }
 .skills__header{
   display: flex;
@@ -730,6 +728,7 @@ img {
   height: 180px;
   border-radius: .5rem;
   justify-self: center;
+  object-fit: cover;
 }
 .portfolio__title{
   font-size: var(--h3-font-size);
