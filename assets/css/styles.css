@@ -475,6 +475,7 @@ img {
 .about__buttons{
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 /* Add the following CSS to your existing styles */
 
@@ -526,6 +527,8 @@ img {
 
 /*==================== SKILLS ====================*/
 .skills__container{
+  display:flex;
+  justify-content: center;
   row-gap: 0;
 }
 .skills__header{

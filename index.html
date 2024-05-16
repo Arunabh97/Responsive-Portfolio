@@ -1,503 +1,551 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== AWESOME FONT ====================-->
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Arunabh</a>
+    <!--==================== AWESOME FONT ====================-->
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="fa-solid fa-house nav__icon"></i></i> Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="fa-solid fa-user nav__icon"></i></i> About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">
-                                <i class="fa-solid fa-briefcase nav__icon"></i></i> Qualification
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="fa-solid fa-file nav__icon"></i></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">
-                                <i class="fa-solid fa-gears nav__icon"></i> Projects
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="fa-solid fa-message nav__icon"></i></i> ContactMe
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Arunabh</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fa-solid fa-house nav__icon"></i></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fa-solid fa-user nav__icon"></i></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="fa-solid fa-briefcase nav__icon"></i></i> Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fa-solid fa-file nav__icon"></i></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="fa-solid fa-gears nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fa-solid fa-message nav__icon"></i></i> ContactMe
+                        </a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--THEME CHANGE BUTTON-->
+                <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i></i>
                 </div>
+            </div>
+        </nav>
+    </header>
 
-                <div class="nav__btns">
-                        <!--THEME CHANGE BUTTON-->
-                        <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
-
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="fa-solid fa-bars"></i></i>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/arunabh-das-917287190/" target="_blank"
+                            class="home__social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Arunabh97" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/Arunabh97" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </a>
                     </div>
-                </div>
-            </nav>
-        </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/arunabh-das-917287190/" target="_blank" class="home__social-icon">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                            <a href="https://github.com/Arunabh97" target="_blank" class="home__social-icon">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://twitter.com/Arunabh97" target="_blank" class="home__social-icon">
-                                <i class="fa-brands fa-square-x-twitter"></i>
-                            </a>
-                        </div>
-
-                        <div class="home_img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    <div class="home_img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
 
-                                    <image class="home__blob-img" x='11' xlink:href="assets/img/perfil.png"/>
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'am Arunabh</h1>
-                            <h3 class="home__subtitle">Developer / DevOps</h3>
-                            <p class="home__description">Highly motivated and skilled hands-on experience in implementing and managing Web Application, Java Developer & DevOps enthusiast.</p>
-                            <a href="#contact" class="button botton--flex">
-                                Contact Me <i class="fa-regular fa-paper-plane button__icon"></i>
-                            </a>
-                        </div>
+                                <image class="home__blob-img" x='11' xlink:href="assets/img/perfil.png" />
+                            </g>
+                        </svg>
                     </div>
 
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            
-                            <span class="home__scroll-name"> <i class="fa-solid fa-computer-mouse" home__scroll-mouse></i> Scroll Down </span>
-                            <i class="fa-solid fa-circle-arrow-down home__scroll-arrow"></i>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'am Arunabh</h1>
+                        <h3 class="home__subtitle">Developer / DevOps</h3>
+                        <p class="home__description">Highly motivated and skilled hands-on experience in implementing
+                            and managing Web Application, Java Developer & DevOps enthusiast.</p>
+                        <a href="#contact" class="button botton--flex">
+                            Contact Me <i class="fa-regular fa-paper-plane button__icon"></i>
                         </a>
                     </div>
                 </div>
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                    <h2 class="section__title">About Me</h2>
-                    <span class="section__subtitle">My introduction</span>
-
-                    <div class="about__container container grid">
-                        <img src="assets/img/about.png" alt="" class="about__img">
-
-                        <div class="about__data">
-                            <p class="about__description">Hey, I'm Arunabh Das, a developer with a fervor for crafting digital experiences. My world revolves around translating ideas into robust, elegant code. Whether it's building sleek web applications, optimizing backend processes, or tackling intricate coding challenges, I'm at home in the realm of ones and zeros. Join me as I unfold my journey through the ever-evolving landscape of technology in my portfolio. Let's embark on a digital adventure together!</p>
 
 
-                            <div class="about__info">
-                                <div>
-                                    <span class="about__info-title">01+</span>
-                                    <span class="about__info-name">Years <br> experience</span>
-                                </div>
-                                <div>
-                                    <span class="about__info-title">10+</span>
-                                    <span class="about__info-name">Completed <br> projects</span>
-                                </div>
-                                <div>
-                                    <span class="about__info-title">1</span>
-                                    <span class="about__info-name">Company <br> worked</span>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+
+                        <span class="home__scroll-name"> <i class="fa-solid fa-computer-mouse" home__scroll-mouse></i>
+                            Scroll Down </span>
+                        <i class="fa-solid fa-circle-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">Hey, I'm Arunabh Das, a developer with a fervor for crafting digital
+                        experiences. My world revolves around translating ideas into robust, elegant code. Whether it's
+                        building sleek web applications, optimizing backend processes, or tackling intricate coding
+                        challenges, I'm at home in the realm of ones and zeros. Join me as I unfold my journey through
+                        the ever-evolving landscape of technology in my portfolio. Let's embark on a digital adventure
+                        together!</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">1</span>
+                            <span class="about__info-name">Company <br> worked</span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a href="assets/pdf/Resume.pdf" download="Resume.pdf" class="button button--flex">
+                            Download CV <i class="fa-solid fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My Personal Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="fa-solid fa-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="fa-solid fa-briefcase qualification__icon"></i>
+                        Work Experience
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content qualification__active" data-content id="educyation">
+
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Masters In Computer Application</h3>
+                                <span class="qualification__subtitle">Arka Jain University</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2022 - 2024
                                 </div>
                             </div>
-                            <div class="about__buttons">
-                                <a download="assets/pdf/Resume Temp2 (1st mail).pdf" class="button button--flex">
-                                Download CV<i class="fa-solid fa-download button__icon"></i>
-                            </a>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Bachelors In Computer Application</h3>
+                                <span class="qualification__subtitle">Jamshedpur Worker's College (Kolhan
+                                    University)</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2017 - 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Intermediate</h3>
+                                <span class="qualification__subtitle">Govind Vidyalaya Tamulia 10+2 (CBSE)</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2016
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Matriculation</h3>
+                                <span class="qualification__subtitle">Govind Vidyalaya Tamulia 10+2 (CBSE)</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2014
+                                </div>
                             </div>
                         </div>
                     </div>
-            </section>
-
-             <!--==================== QUALIFICATION ====================-->
-             <section class="qualification section" id="qualification">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My Personal Journey</span>
-            
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target="#education">
-                            <i class="fa-solid fa-graduation-cap qualification__icon"></i>
-                            Education
-                        </div>
-
-                        <div class="qualification__button button--flex" data-target="#work">
-                            <i class="fa-solid fa-briefcase qualification__icon"></i>
-                            Work Experience
-                        </div>
-                    </div>
-
-                    <div class="qualification__sections">
-                        <div class="qualification__content qualification__active" data-content id="education">
+                    <!--===================== Work Section ================== -->
+                    <div class="qualification__content" data-content id="work">
 
 
-                            <div class="qualification__data" >
-                                <div>
-                                    <h3 class="qualification__title">Masters In Computer Application</h3>
-                                    <span class="qualification__subtitle">Arka Jain University</span>
-                                    <div class="qualification__calendar">
-                                        <i class="fa-solid fa-calendar-days"></i>
-                                        2022 - 2024
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Graduate Trainee</h3>
+                                <span class="qualification__subtitle">Tata Consultancy Services</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2021 - 2022
                                 </div>
                             </div>
 
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Bachelors In Computer Application</h3>
-                                    <span class="qualification__subtitle">Jamshedpur Worker's College (Kolhan University)</span>
-                                    <div class="qualification__calendar">
-                                        <i class="fa-solid fa-calendar-days"></i>
-                                        2017 - 2020
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Intermediate</h3>
-                                    <span class="qualification__subtitle">Govind Vidyalaya Tamulia 10+2 (CBSE)</span>
-                                    <div class="qualification__calendar">
-                                        <i class="fa-solid fa-calendar-days"></i>
-                                        2016
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
-                                <div>
-                                    <h3 class="qualification__title">Matriculation</h3>
-                                    <span class="qualification__subtitle">Govind Vidyalaya Tamulia 10+2 (CBSE)</span>
-                                    <div class="qualification__calendar">
-                                        <i class="fa-solid fa-calendar-days"></i>
-                                        2014
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--===================== Work Section ================== -->
-                        <div class="qualification__content" data-content id="work">
-
-
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Graduate Trainee</h3>
-                                    <span class="qualification__subtitle">Tata Consultancy Services</span>
-                                    <div class="qualification__calendar">
-                                        <i class="fa-solid fa-calendar-days"></i>
-                                        2021 - 2022
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My Technical Level</span>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Level</span>
 
-                <div class="skills__container container grid">
-                    <div>
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="fa-solid fa-globe skills__icon"></i>
-                            
+            <div class="skills__container container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="fa-solid fa-globe skills__icon"></i>
+
                             <div>
-                                <h1 class="skills__title">Frontend</h1>
+                                <h1 class="skills__title">Frontend Skills</h1>
                                 <span class="skills__subtitle">More than 1 years</span>
                             </div>
 
                             <i class="fa-solid fa-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><i class="fa-brands fa-html5"></i> HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name"><i class="fa-brands fa-html5"></i> HTML</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><i class="fa-brands fa-css3-alt"></i> CSS</h3>
+                                    <span class="skills__number">60%</span>
                                 </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name"><i class="fa-brands fa-css3-alt"></i> CSS</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__css"></span>
-                                    </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!--============SKILLS 2==========-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="fa-solid fa-server skills__icon"></i>
-                            
+                    <!--============SKILLS 2==========-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="fa-solid fa-server skills__icon"></i>
+
                             <div>
-                                <h1 class="skills__title">Backend Developer</h1>
+                                <h1 class="skills__title">Backend Skills</h1>
                                 <span class="skills__subtitle">More than 1 years</span>
                             </div>
 
                             <i class="fa-solid fa-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><i class="fa-brands fa-java"></i> JAVA</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name"><i class="fa-brands fa-java"></i> JAVA</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__java"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><i class="fa-brands fa-php"></i> PHP</h3>
+                                    <span class="skills__number">50%</span>
                                 </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name"><i class="fa-brands fa-php"></i> PHP</h3>
-                                        <span class="skills__number">50%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__php"></span>
-                                    </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
                                 </div>
+                            </div>
 
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name"><i class="fa-solid fa-c"></i> C/C++</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__c"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><i class="fa-solid fa-c"></i> C/C++</h3>
+                                    <span class="skills__number">70%</span>
                                 </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__c"></span>
+                                </div>
+                            </div>
 
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name"><i class="fa-brands fa-python"></i> Python</h3>
-                                        <span class="skills__number">50%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><i class="fa-brands fa-python"></i> Python</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!--============SKILLS 3==========-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="fa-solid fa-database skills__icon"></i>
-                            
+                    <!--============SKILLS 3==========-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="fa-solid fa-database skills__icon"></i>
+
                             <div>
                                 <h1 class="skills__title">Database</h1>
                                 <span class="skills__subtitle">More than 1 years</span>
                             </div>
 
                             <i class="fa-solid fa-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MY SQL</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">MY SQL</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__mysql"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">No SQL - REDIS</h3>
+                                    <span class="skills__number">50%</span>
                                 </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">No SQL - REDIS</h3>
-                                        <span class="skills__number">50%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__redis"></span>
-                                    </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__redis"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
 
-            <!--==================== PORTFOLIO Projects ====================-->
-            <section class="portfolio section" id="projects">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">My Personal Project Works</span>
+        <!--==================== PORTFOLIO Projects ====================-->
+        <section class="portfolio section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My Personal Project Works</span>
 
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- ======= Project1 ======== -->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/project-1.png" alt="" class="portfolio__img">
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Responsive Portfolio</h3>
-                                <p class="portfolio__description">Explore Arunabh's portfolio – a dynamic showcase of skills, projects, and experiences. With a responsive design for optimal viewing on any device, this site combines sleek aesthetics with interactive elements powered by Html,Css & JavaScript.</p>
-                                <a href="https://github.com/Arunabh97/Responsive-Portfolio" class="button button--flex button--small portfolio__button">
-                                    GitHub 
-                                    &nbsp;<i class="fa-brands fa-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
+                    <!-- ======= Project0 ======== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/coffee.png" alt="" class="portfolio__img">
 
-                        <!-- ======= Project2 ======== -->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/project-2.jpg" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">SynthSync</h3>
-                                <p class="portfolio__description">SynthSync is a modern and responsive music player website that seamlessly blends functionality with an elegant design. Crafted using HTML, CSS, and JavaScript, this web application offers a user-friendly interface for music enthusiasts to enjoy their favorite tunes effortlessly.</p>
-                                <a href="https://github.com/Arunabh97/SynthSync" class="button button--flex button--small portfolio__button">
-                                    GitHub 
-                                    &nbsp;<i class="fa-brands fa-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- ======= Project3 ======== -->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/project-3.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Electricity Bill Management System</h3>
-                                <p class="portfolio__description">The Electricity Bill Management System using Java Swing is a software project designed to automate and streamline the process of managing electricity bills. This project is built using Java programming language and the Swing framework for creating a graphical user interface (GUI).</p>
-                                <a href="https://github.com/Arunabh97/ATMSimulatorSystem" class="button button--flex button--small portfolio__button">
-                                    GitHub 
-                                    &nbsp;<i class="fa-brands fa-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- ======= Project4 ======== -->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/project-4.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Hostel Management System</h3>
-                                <p class="portfolio__description">Hostel Management System using a technology stack that includes HTML, CSS, JavaScript, jQuery, PHP, and MySQL. This web-based application allows for efficient management of hostel operations, encompassing tasks such as student registrations, room allocations, fee management, and more.</p>
-                                <a href="https://github.com/Arunabh97/Hostel-Management-System" class="button button--flex button--small portfolio__button">
-                                    GitHub 
-                                    &nbsp;<i class="fa-brands fa-github-alt"></i>
-                                </a>
-                            </div>
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">CoffeeBlend(Coffee Ordering & Reservation System ☕)
+                            </h3>
+                            <p class="portfolio__description">Coffee Blend is a sophisticated web application designed
+                                to revolutionize the coffee ordering process and streamline table reservations, with
+                                seamless integration of payment gateways for a hassle-free experience. Full Stack Web
+                                Application includes Html, Css, Bootstrap, JavaScript, PHP, jQuery, MySQL.</p>
+                            <a href="https://github.com/Arunabh97/Coffee-Blend"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                &nbsp;<i class="fa-brands fa-github-alt"></i>
+                            </a>
                         </div>
                     </div>
-                    
 
-                    <!-- Add Arrws -->
-                    <div class="swiper-button-next">
-                        <i class="fa-solid fa-circle-chevron-right swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="fa-solid fa-circle-chevron-left swiper-portfolio-icon"></i>
+                    <!-- ======= Project1 ======== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project-1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Responsive Portfolio</h3>
+                            <p class="portfolio__description">Explore Arunabh's portfolio – a dynamic showcase of
+                                skills, projects, and experiences. With a responsive design for optimal viewing on any
+                                device, this site combines sleek aesthetics with interactive elements powered by
+                                Html,Css & JavaScript.</p>
+                            <a href="https://github.com/Arunabh97/Responsive-Portfolio"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                &nbsp;<i class="fa-brands fa-github-alt"></i>
+                            </a>
+                        </div>
                     </div>
 
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                    <!-- ======= Project2 ======== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project-2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">SynthSync</h3>
+                            <p class="portfolio__description">SynthSync is a modern and responsive music player website
+                                that seamlessly blends functionality with an elegant design. Crafted using HTML, CSS,
+                                and JavaScript, this web application offers a user-friendly interface for music
+                                enthusiasts to enjoy their favorite tunes effortlessly.</p>
+                            <a href="https://github.com/Arunabh97/SynthSync"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                &nbsp;<i class="fa-brands fa-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ======= Project3 ======== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project-3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Electricity Bill Management System</h3>
+                            <p class="portfolio__description">The Electricity Bill Management System using Java Swing is
+                                a software project designed to automate and streamline the process of managing
+                                electricity bills. This project is built using Java programming language and the Swing
+                                framework for creating a graphical user interface (GUI).</p>
+                            <a href="https://github.com/Arunabh97/ATMSimulatorSystem"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                &nbsp;<i class="fa-brands fa-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ======= Project4 ======== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project-4.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Hostel Management System</h3>
+                            <p class="portfolio__description">Hostel Management System using a technology stack that
+                                includes HTML, CSS, JavaScript, jQuery, PHP, and MySQL. This web-based application
+                                allows for efficient management of hostel operations, encompassing tasks such as student
+                                registrations, room allocations, fee management, and more.</p>
+                            <a href="https://github.com/Arunabh97/Hostel-Management-System"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                &nbsp;<i class="fa-brands fa-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </section>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch</span>
 
-              <div class="contact__container container grid">
+                <!-- Add Arrws -->
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-circle-chevron-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-circle-chevron-left swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
                 <div>
                     <div class="contact__information">
                         <i class="fa-solid fa-phone contact__icon"></i>
@@ -544,7 +592,8 @@
                     </div>
                     <div class="contact__content">
                         <label for="message" class="contact__label">Message</label>
-                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input" autocomplete="off"></textarea>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"
+                            autocomplete="off"></textarea>
                     </div>
 
                     <div>
@@ -554,13 +603,13 @@
                         </a>
                     </div>
                 </form>
-              </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         <div class="footer__bg">
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Arunabh</h1>
@@ -596,18 +645,19 @@
             </div>
 
             <p class="footer__copy">&#169; Arunabh. All right reserved</p>
-         </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="fa-solid fa-angles-up scrollup__icon"></i>
-        </a>
+        </div>
+    </footer>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-angles-up scrollup__icon"></i>
+    </a>
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
